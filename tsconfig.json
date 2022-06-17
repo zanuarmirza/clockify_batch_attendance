@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+      "module": "node16",
+      "declaration": true,
+      "removeComments": true,
+      "target": "ESNext",
+      "sourceMap": true,
+      "inlineSources": true,
+      "sourceRoot": "./",
+      "outDir": "./dist",
+      "baseUrl": "./",
+      "rootDir": "./src",
+      "incremental": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "paths": {
+        "src/*": [
+            "./src/*"
+        ]
+    },
+  }
+}

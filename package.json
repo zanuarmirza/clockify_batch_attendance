@@ -1,0 +1,27 @@
+{
+  "name": "clokify_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "tsc --build --clean",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "start":"node dist/index.js"
+  },
+  "author": "mirza",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.0.0",
+    "ts-node": "^10.8.1",
+    "tsconfig-paths": "^4.0.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.6"
+  },
+  "type": "module"
+}
